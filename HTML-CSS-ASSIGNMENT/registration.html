@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> student registration form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+<div id="container">
+    <header>
+    <form action="/action.php">
+    <h2>STUDENT REGISTRATION FORM</h2>
+    </header>
+    <hr>
+    <br>
+    <main>
+    <label class="style">Full Name :</label>
+    <input type="text" name="FULL NAME"placeholder="Enter" required>
+    <br><br>
+     <label class="style">Active Email Address :</label>
+    <input type="email" name="Active Email Address" placeholder="Enter" required>
+    <br><br>
+     <label class="style">Create Password :</label>
+    <input type="Password" name="Create Password" placeholder="8 characters" required>
+    <br><br>
+     <label class="style">D O B :</label>
+    <input type="date">
+    <br><br>
+    <div class="options">
+    <label class="style">Gender :</label>
+    <div class="selection">
+    <input type="radio" name="Gender" value="FEMALE">FEMALE
+<input type="radio" name="Gender" value="MALE">MALE
+</div>
+</div>
+    <br>
+    <div class="options">
+    <label class="style">Favorite Programming Languages :</label>
+     <div class="selection">
+<input type="checkbox" name="Language" value="PYTHON">PYTHON
+<input type="checkbox" name="Language" value="C++">C++
+<input type="checkbox" name="Language" value="HTML">HTML
+</div>
+</div>
+<br>
+<label class="style">City :</label>
+<select name="City">
+<option value> ISLAMABAD</option>
+<option value> LAHORE</option>
+<option value> KARACHI</option>
+<option value> FAISALABAD</option>
+</select>
+<br><br>
+ <div class="ABOUT">
+<label class="style">About YourSelf :</label>
+<div class="">
+<textarea name="About YourSelf" row="5"> 
+</textarea>
+</div>
+</div>
+</main>
+<br>
+<footer>
+<div class="buttons">
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</div>
+</footer>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+ body {
+    margin: 0;
+    padding:0;
+    background-image:linear-gradient(to top left, rgba(251, 149, 144, 1), rgba(133, 46, 78, 1));
+    width:90%;
+    max-width:1200px;
+}
+#links{
+  display:flex;
+  justify-content:center;    
+  gap:30px;
+
+}
+#links a{
+    text-decoration:none;
+    height:20px;
+    border:3px solid rgba(251, 149, 144, 1);
+    border-radius: 5px;
+    color:white;
+    box-shadow:1px 10px 5px black;
+    padding:6px; 
+    position:relative;    
+    top:0;
+}
+#links a:hover{
+    position:relative;
+    top:-3px;
+}
+header{
+    color:#FFFFFF;
+    text-align:center;
+    font-family:poppins,Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+h2{
+    color:#FFFFFF;
+    text-align:left;
+    font-family:poppins,Arial, Helvetica, sans-serif;
+    font-weight:600;
+}
+#about-me p{
+    color:#FBEFF1;
+   text-align:left;
+    font-family:poppins,Arial, Helvetica, sans-serif;
+    font-weight:400;
+    width:60%;
+    line-height:1.5;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.skill {
+  background-color: rgba(251, 149, 144, 1);
+  color:#FBEFF1;
+  padding:25px 20px;
+  border-radius:15px;
+  border:3px solid #4C1D3D;
+  width:150px;                     
+  text-align:center;
+  font-family:poppins,Arial;
+  font-weight:400;
+}
+#journey p{
+   text-align:left;
+    font-family:poppins,Arial, Helvetica, sans-serif;
+    font-weight:300;
+    width:60%;
+    color:#FBEFF1;
+}
+h3{
+    color:black;
+     font-family:poppins,Arial, Helvetica, sans-serif;
+    font-weight:400;
+}
+#more-information p{
+   text-align:left;
+    font-family:poppins,Arial, Helvetica, sans-serif;
+    font-weight:300;
+    width:60%;
+    line-height:1.5;
+    color:#FBEFF1;
+}
+li{
+    text-align:left;
+    font-family:poppins,Arial, Helvetica, sans-serif;
+    font-weight:300;
+    color:#FBEFF1;
+    line-height:1.5;
+}
+footer {
+  text-align:center;
+  padding:30px 20px;
+  background-color:#4C1D3D;   
+}
+footer h2 {
+  color:white;
+  margin-bottom:10px;
+}
+
+footer h3 {
+  color:white;
+  margin-bottom:15px;
+}
+

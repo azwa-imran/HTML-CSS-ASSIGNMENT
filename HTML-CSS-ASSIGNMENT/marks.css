@@ -1,0 +1,39 @@
+#main-heading{
+    color:#203352;
+    text-align:center; 
+}
+caption {
+    color:#2B2D42;
+    text-transform:uppercase;
+    text-align:center;
+    font-weight:bold;
+    font-family:Georgia, Times New Roman, Times, serif;
+    margin-bottom:10px; 
+}
+table {
+    width:60%;
+    text-align:center;
+    margin:auto;
+    
+}
+#table-heading {
+    background-color:#81B29A;
+    color:#FFFFFF; 
+    padding:10px;
+    border:1px solid #81B29A;
+}
+td{
+    background-color:#FFFFFF;  
+    padding:10px;
+    text-align:center;
+    border:1px solid #81B29A; 
+    
+}
+
+.table-data {
+    background-color:#E07A5F;
+    color:#FFFFFF ;
+    font-weight:bold;
+}
+
+
